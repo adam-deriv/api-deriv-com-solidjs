@@ -1,4 +1,4 @@
 {
     "chromeWebSecurity": false,
-    "baseUrl": "https://api.deriv.com"
+    "baseUrl": "http://localhost:3000"
 }
