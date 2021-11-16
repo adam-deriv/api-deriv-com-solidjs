@@ -1,5 +1,7 @@
+import heroUrl from '../../assets/hero.png';
+
 const Hero = () => (
-    <div class="bg-cover bg-center h-screen w-screen" style="background-image: url('/src/assets/hero.png')">
+    <div class="bg-cover bg-center h-screen w-screen" style={`background-image: url(${heroUrl})`}>
         <div class="h-48"></div>
         <h1 class="text-white text-center text-6xl font-bold">
             Deriv API
