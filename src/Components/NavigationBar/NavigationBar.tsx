@@ -5,6 +5,7 @@ import { createSignal, Show, For } from 'solid-js';
 import arrowDownUrl from '../../assets/arrow_down.svg';
 import closeSVGUrl from '../../assets/close.svg';
 import hamburgerMenuUrl from '../../assets/hamburger_menu.svg';
+import derivSvgUrl from '../../assets/deriv.svg';
 
 
 export const NavigationBar: Component = () => {
@@ -26,7 +27,7 @@ export const NavigationBar: Component = () => {
                 <section class="flex items-center">
                     <img class="desktop:hidden mobile:mr-2.5" src={showMobileNav() ? closeSVGUrl : hamburgerMenuUrl} alt="Deriv Logo" width="16" height="16" onclick={() => setShowMobileNav(!showMobileNav())} />
                     <NavLink class="flex items-center text-white" href="/">
-                        <img src='/src/assets/deriv.svg' class="h-[73px] w-[180px] mobile:h-auto mobile:w-[84px]" height='73' width="180" alt="Deriv Logo" />
+                        <img src={derivSvgUrl} class="h-[73px] w-[180px] mobile:h-auto mobile:w-[84px]" height='73' width="180" alt="Deriv Logo" />
                         <h1 class='inline ml-6 text-2xl  mobile:text-base mobile:ml-2'>API</h1>
                     </NavLink>
                     <nav class="flex flex-row ml-5% mobile:hidden">
