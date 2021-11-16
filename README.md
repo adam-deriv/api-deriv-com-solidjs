@@ -38,3 +38,9 @@ Your app is ready to be deployed!
 ## Deployment
 
 You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+
+## Netlify Deploy
+
+You can instantly clone this to your GitHub and deploy it by clicking this button here:
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/mamali-fs/api-deriv-com-solidjs)
